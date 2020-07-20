@@ -1,6 +1,5 @@
 class Dog
 
-
 def name=(dog_name)
   @this_dog_name = dog_name
  end
@@ -11,17 +10,10 @@ def name=(dog_name)
 
  def bark
    puts "woof!"
+ end
 end
-end
-
-
-
 
 fido = Dog.new
-
-
 fido.name = "Fido"
-
 puts fido.name
-
 fido.bark
